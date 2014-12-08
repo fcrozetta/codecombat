@@ -4,7 +4,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     no_ie: "CodeCombat não roda em versões mais antigas que o Internet Explorer 10. Desculpe!" # Warning that only shows up in IE8 and older
     no_mobile: "CodeCombat não foi projetado para dispositivos móveis e pode não funcionar!" # Warning that shows up on mobile devices
     play: "Jogar" # The big play button that just starts playing a level
-#    try_it: "Try It" # Alternate wording for Play button
+#    try_it: "Experimente" # Alternate wording for Play button
     old_browser: "Ops, seu navegador é muito antigo para rodar o CodeCombat. Desculpe!" # Warning that shows up on really old Firefox/Chrome/Safari
     old_browser_suffix: "Você pode tentar de qualquer forma, mas provavelmente não irá funcionar."
 #    ipad_browser: "Bad news: CodeCombat doesn't run on iPad in the browser. Good news: our native iPad app is awaiting Apple approval."
@@ -54,10 +54,10 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     players: "jogadores" # Hover over a level on /play
     hours_played: "horas jogadas" # Hover over a level on /play
     items: "Items" # Tooltip on item shop button from /play
-#    unlock: "Unlock" # For purchasing items and heroes
-#    confirm: "Confirm"
+    unlock: "Desbloquear" # For purchasing items and heroes
+    confirm: "Confirmar"
 #    owned: "Owned" # For items you own
-#    locked: "Locked"
+    locked: "Bloqueado"
 #    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
 #    available: "Available"
 #    skills_granted: "Skills Granted" # Property documentation details
@@ -78,9 +78,9 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     anonymous: "Jogador Anônimo"
     level_difficulty: "Dificuldade: "
     campaign_beginner: "Campanha Iniciante"
-#    awaiting_levels_adventurer_prefix: "We release five levels per week."
-#    awaiting_levels_adventurer: "Sign up as an Adventurer"
-#    awaiting_levels_adventurer_suffix: "to be the first to play new levels."
+    awaiting_levels_adventurer_prefix: "Nós Liberamos cinco níveis por semana."
+    awaiting_levels_adventurer: "Acesse como um aventureiro"
+    awaiting_levels_adventurer_suffix: "para ser o primeiro a jogar os novos níveis."
     choose_your_level: "Escolha seu estágio" # The rest of this section is the old play view at /play-old and isn't very important.
     adventurer_prefix: "Você pode ir para qualquer um dos estágios abaixo, ou discutir sobre eles no "
     adventurer_forum: "Fórum do Aventureiro"
@@ -102,10 +102,10 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     logging_in: "Entrando"
     log_out: "Sair"
     recover: "Recuperar sua conta"
-#    authenticate_gplus: "Authenticate G+"
-#    load_profile: "Load G+ Profile"
-#    load_email: "Load G+ Email"
-#    finishing: "Finishing"
+    authenticate_gplus: "Autenticar com G+"
+    load_profile: "Carregar perfil do G+"
+    load_email: "Carregar email do G+"
+    finishing: "Terminando"
 
   signup:
     create_account_title: "Criar conta para salvar progresso"
@@ -125,12 +125,12 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     recovery_sent: "Email de recuperação enviado."
 
   items:
-#    primary: "Primary"
-#    secondary: "Secondary"
+    primary: "Primário"
+    secondary: "Secundário"
     armor: "Armadura"
     accessories: "Accessórios"
     misc: "Diversos"
-#    books: "Books"
+    books: "Livros"
 
   common:
     loading: "Carregando..."
@@ -200,7 +200,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
   play_level:
     done: "Pronto"
     home: "Início" # Not used any more, will be removed soon.
-#    level: "Level" # Like "Level: Dungeons of Kithgard"
+    level: "Nível" # Like "Level: Dungeons of Kithgard"
     skip: "Pular"
     game_menu: "Menu do Jogo"
     guide: "Guia"
@@ -214,7 +214,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     failing: "Falta"
     action_timeline: "Linha do Tempo das Ações"
     click_to_select: "Clique em um personagem para selecioná-lo."
-#    control_bar_multiplayer: "Multiplayer"
+    control_bar_multiplayer: "Multijogador"
 #    control_bar_join_game: "Join Game"
     reload: "Recarregar"
     reload_title: "Recarregar Todo o Código?"
@@ -246,9 +246,9 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     tome_select_a_thang: "Selecione alguém para "
     tome_available_spells: "Feitiços Disponíveis"
     tome_your_skills: "Suas habilidades"
-#    tome_help: "Help"
-#    tome_current_method: "Current Method"
-#    hud_continue_short: "Continue"
+    tome_help: "Ajuda"
+    tome_current_method: "Método Atual"
+    hud_continue_short: "Continue"
     code_saved: "Código Salvo"
     skip_tutorial: "Pular (esc)"
     keyboard_shortcuts: "Teclas de atalho"
